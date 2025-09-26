@@ -133,7 +133,7 @@ Thumbs.db
 
 # Personal files (remove these if they exist)
 app/src/main/res/images/
-*.jpg
+# *.jpg - commented out to allow screenshot files
 *.jpeg
 *.png
 *.gif
