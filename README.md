@@ -1,6 +1,6 @@
 # Tip Recorder 💰
 
-A modern Android application built with Kotlin and Jetpack Compose for tracking and managing tips across multiple currencies.
+A modern Android app for tracking tips with multi-currency support and automatic TRY conversion.
 
 ## Features ✨
 
@@ -14,6 +14,12 @@ A modern Android application built with Kotlin and Jetpack Compose for tracking 
 - **Real-time Updates**: Live total calculation as you add tips
 
 ## Screenshots 📱
+
+<div align="center">
+  <img src="p1.jpg" alt="Home Screen" width="200"/>
+  <img src="p2.jpg" alt="Add Tip Screen" width="200"/>
+  <img src="p3.jpg" alt="Tip Details" width="200"/>
+</div>
 
 The app features:
 - **Home Screen**: Shows total tips in TRY equivalent and list of all tips
@@ -31,24 +37,6 @@ The app features:
 - **State Management**: StateFlow
 - **Currency Conversion**: Custom CurrencyConverter with real-time exchange rates
 
-## Architecture 🏗️
-
-```
-app/
-├── data/
-│   ├── model/          # Data models (Tip, Currency, CurrencyTotal)
-│   ├── dao/            # Room DAO interfaces
-│   ├── database/       # Room database setup
-│   ├── repository/     # Repository pattern implementation
-│   └── converter/      # Type converters
-├── ui/
-│   ├── screen/         # Composable screens
-│   ├── components/     # Reusable UI components
-│   ├── viewmodel/      # ViewModels
-│   └── theme/          # Material Design theme
-├── di/                 # Dependency injection modules
-└── navigation/         # Navigation setup
-```
 
 ## Currency Support 💱
 
@@ -120,4 +108,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with ❤️ using Kotlin and Jetpack Compose
+
