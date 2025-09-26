@@ -92,19 +92,12 @@ git clone https://github.com/yourusername/tip-recorder.git
 6. **View Total**: See the total amount converted to TRY on the home screen
 7. **Delete Tips**: Long press or use the delete button to remove tips
 
-## Contributing 🤝
-
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License 📄
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments 🙏
 
-- Material Design 3 for the beautiful UI components
-- Jetpack Compose team for the modern UI framework
-- Android Architecture Components for the robust architecture
 
 ---
 
